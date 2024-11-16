@@ -13,12 +13,12 @@ const Team = () => {
             <p className="text-gray-600">CEO & Founder</p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <img src={Profile2} alt="Team Member 2" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <img src={Profile3} alt="Team Member 2" className="rounded-full w-32 h-32 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold text-gray-700 mb-2">Jane Smith</h3>
             <p className="text-gray-600">Head of Sales</p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <img src={Profile3} alt="Team Member 3" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <img src={Profile1} alt="Team Member 3" className="rounded-full w-32 h-32 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold text-gray-700 mb-2">Robert Johnson</h3>
             <p className="text-gray-600">Marketing Lead</p>
           </div>

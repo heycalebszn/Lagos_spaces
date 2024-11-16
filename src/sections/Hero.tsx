@@ -1,15 +1,16 @@
 import { motion } from "framer-motion";
+import { Ivana1, Ivana2, Mark1 } from "../assets";
 
 const Hero = () => {
   return (
-    <section className="bg-gray-100 h-screen flex items-center justify-center">
+    <section className="bg-[url('/src/assets/Houses/house5.jpg')] h-screen flex items-center justify-center bg-cover bg-center">
       <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity:1 }}
         transition={{ duration:0.9 }}
         className="text-center">
-        <h1 className="text-5xl font-extrabold text-gray-800">Find Your Perfect Space</h1>
-        <p className="mt-4 text-lg text-gray-600">
+        <h1 className="text-5xl font-extrabold text-white">Find Your Perfect Space</h1>
+        <p className="mt-4 text-lg text-white">
           Discover homes and offices that suit your needs in the best locations.
         </p>
         <a
@@ -18,8 +19,6 @@ const Hero = () => {
         >
           Explore Marketplace
         </a>
-        <span className="absolute top-0 left-0 w-[150px]"></span>
-        <span className="absolute bottom-0 right-0 w-[150px]"></span>
       </motion.div>
     </section>
   );

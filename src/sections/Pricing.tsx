@@ -4,7 +4,7 @@ const Pricing = () => {
   const plans = [
     { id: 1, title: 'Basic Plan', price: '$0', features: ['Free property listing', 'Access to all features'] },
     { id: 2, title: 'Premium Plan', price: '$49/month', features: ['Featured listing', 'Priority support', 'Increased visibility'] },
-    { id: 3, title: 'Enterprise Plan', price: 'Custom', features: ['Tailored features', 'Custom support', 'Bulk property listings'] },
+    { id: 3, title: 'Enterprise Plan', price: '$500/month', features: ['Tailored features', 'Custom support', 'Bulk property listings'] },
   ];
 
   return (

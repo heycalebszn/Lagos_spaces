@@ -1,5 +1,8 @@
 // About.tsx
 import React from 'react';
+import { Profile1, Profile3 } from "../assets";
+import Careers from './Careers';
+import Contact from './Contact';
 
 const About = () => {
   return (
@@ -27,17 +30,17 @@ const About = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Meet Our Team</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <img src="/path/to/team-member1.jpg" alt="Team Member 1" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <img src={Profile1} alt="Team Member 1" className="rounded-full w-32 h-32 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold text-gray-700">John Doe</h3>
             <p className="text-gray-600">CEO & Founder</p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <img src="/path/to/team-member2.jpg" alt="Team Member 2" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <img src={Profile3} alt="Team Member 2" className="rounded-full w-32 h-32 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold text-gray-700">Jane Smith</h3>
             <p className="text-gray-600">Head of Operations</p>
           </div>
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            <img src="/path/to/team-member3.jpg" alt="Team Member 3" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <img src={Profile1} alt="Team Member 3" className="rounded-full w-32 h-32 mx-auto mb-4" />
             <h3 className="text-2xl font-semibold text-gray-700">Michael Lee</h3>
             <p className="text-gray-600">Lead Developer</p>
           </div>

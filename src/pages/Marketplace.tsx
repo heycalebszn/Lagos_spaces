@@ -7,8 +7,8 @@ const Marketplace = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section */}
-      <section className="bg-cover bg-center h-96 flex items-center justify-center" 
-               style={{ backgroundImage: 'url(/assets/house1.jpg)' }}>
+      <section className="bg-cover bg-center h-96 flex items-center justify-center bg-[url('/src/assets/Houses/house5.jpg')]" 
+               style={{ backgroundImage: House1 }}>
         <div className="text-center text-white">
           <h1 className="text-4xl font-bold mb-4">Welcome to Lagos-Spaces Marketplace</h1>
           <p className="text-lg mb-6">Find or List Accommodations in Lagos</p>
@@ -90,11 +90,6 @@ const Marketplace = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6 text-center">
-        <p>© 2024 Lagos-Spaces. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
